@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #6c63ff;
+  font-weight: 700;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #e0e7ff;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #574fd6;
+}
+
+.btn-secondary {
+  background-color: #333;
+}
+
+.socials img {
+  width: 30px;
+  margin: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul li {
+  margin: 10px 15px;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-card {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #6c63ff;
+  color: white;
+}
+
+h2 {
+  overflow: hidden;
+  border-right: 2px solid #333;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end), blink 0.75s step-end infinite;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+p {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* New section styles */
+
+#projects, #sports, #achievements, #hobbies {
+  animation: fadeIn 1.5s ease-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#projects h3, #sports h3, #achievements h3, #hobbies h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6c63ff;
+}
+
+#projects, #sports, #achievements, #hobbies {
+  padding: 50px 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project-card, #sports, #achievements, #hobbies {
+  animation: fadeIn 1.5s ease-out;
+}
+
+#projects .project-card, #sports ul li, #achievements ul li, #hobbies p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+#sports p, #hobbies p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+ul li {
+  margin: 10px 15px;
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+img {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
